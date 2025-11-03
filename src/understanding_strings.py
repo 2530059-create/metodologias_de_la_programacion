@@ -97,3 +97,37 @@ quote="solo se que no se nada"
 message_f_strings= f"{famous_person}  una vez dijo  {quote}"
 print(message_f_strings)
 
+#white spaces en strings
+
+"""
+se refiiere a cualquier caracter que no se imprima, como espacios, tabulaciones y saltos de linea.
+Los whitespaces se utilizan para organizar las salidas de tal manera que sea mas amigable de leer para los usuarios.
+"""
+
+# ejemplo
+print("python")
+print("\tpython") 
+
+# salto de linea
+print("lenguajes de programacion:\npython\njava\nc++\njavascript")
+
+
+message1="""
+
+esta clase es de programacion
+y estamos aprendiendo sobre strings
+
+
+         metodologias de la programacion
+
+
+
+"""
+print(message1)
+
+# eliminacion de espacios en blanco
+prigraming_language="   python   "
+print(prigraming_language.lstrip()) # elimina espacios a la izquierda
+print(prigraming_language.rstrip()) # elimina espacios a la derecha
+print(prigraming_language.strip())  # elimina espacios a ambos lados
+print(prigraming_language)  # la variable original no se modifica

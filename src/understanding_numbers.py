@@ -65,3 +65,22 @@ Ejemplos:
 print(0.1+0.1)
 print(0.2-0.2)
 print(0.2*0.2)
+
+
+# imprimir la edad de alguien
+age = 33
+#message= "charly tiene" + age + "años"
+# print(message)
+
+message= "charly tiene" + str(age) + "años"
+print(message)
+
+
+
+"""
+type error: python no puede reconocer el tipo de informacon que se esta utilizando
+para convertir a string es str()
+
+"""
+message_f = f"carly tiene {age} años"
+print(message_f)
