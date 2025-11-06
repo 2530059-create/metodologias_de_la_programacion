@@ -80,5 +80,71 @@ insert es para insertar un elemento en una posicion especifica
 append es para agregar un elemento al final de la lista
 
 el metodo upper es para string
-el metodo append e insert son para listas
+el metodo append e insert son para listas{}
+
+el metodo insert requiere dos argumentos
+y el metodo append toma solo un elemento
 """
+
+
+
+
+
+
+# Eleiminar elementos de una lista
+print("\n Eliminar elementos de una lista \n")
+
+"""
+Eliminar elementos de una lista
+ del- para eliminar un elemento de una lista elimina un 
+ elemento en una posicion especifica
+""" 
+print("\n Eliminar elementos de una lista utiliando el metodo del \n")
+motorcycles=['honda', 'yamaha', 'suzuki']
+print(motorcycles) # salida: ['honda', 'yamaha', 'suzuki']
+del motorcycles[0]
+print(motorcycles) # salida: ['yamaha', 'suzuki']
+
+
+
+
+"""
+eliminar elemntos de una lista utulizando el metodo pop
+este si es un metodo de las listas
+
+"""
+print("\n Eliminar elementos de una lista  utilizando el metodo popped\n")
+motorcycles=['honda', 'yamaha', 'suzuki']
+print(motorcycles) # salida: ['honda', 'yamaha', 'suzuki']
+popped_motorcycle=motorcycles.pop(0)
+print(motorcycles) # salida: ['yamaha', 'suzuki']
+print(f"La moto que fue sacada de la lista es la {popped_motorcycle.title()}")
+
+
+print("\n Eliminar elementos de una lista  utilizando el metodo remove\n")
+
+""""
+ekiminar elementos de una lista utilizando el metodo 
+remove
+el metodo remove elimina un elemento por su valor   
+ estas son listas con strings
+input es igual a leer y a escribir como si fuera pseudocodigo
+"""
+
+
+motorcycles=['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles) # salida: ['honda', 'yamaha', 'suzuki', 'ducati']
+motorcycles.remove('ducati')
+print(motorcycles) # salida: ['honda', 'yamaha', 'suzuki']
+
+
+# ejemplo paractico de remove
+
+print("\n Ejemplo practico de remove \n")
+
+names=['juan', 'maria', 'pedro', 'ana']
+print(names) # salida: ['juan', 'maria', 'pedro', 'ana
+nombre_eliminado= input("ingresa el nombre que deseas eliminar de la lista: ")
+names.remove(nombre_eliminado.strip().lower())
+print(names) # salida: ['juan', 'maria', 'ana'] si se ingresa pedro 
+
