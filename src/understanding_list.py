@@ -148,3 +148,59 @@ nombre_eliminado= input("ingresa el nombre que deseas eliminar de la lista: ")
 names.remove(nombre_eliminado.strip().lower())
 print(names) # salida: ['juan', 'maria', 'ana'] si se ingresa pedro 
 
+# ordenar listas
+
+"""
+ordenar listas:
+  metodo de lista: sort ()
+ ordensamiento permanente, es decir, ordena la lista permanentemente
+ se ordena alfabeticamente cuando tiene strings
+
+ el metodo sort de las listas puede llevar argumentos como reverse=True
+ para ordenar en orden inverso
+"""
+
+print("\n Ordenar listas \n")
+cars=['bmw', 'audi', 'ford', 'kia']
+print(cars) # salida: ['bmw', 'audi', 'ford', 'kia']
+cars.sort()
+print(cars) # salida: ['audi', 'bmw', 'ford', 'kia']
+
+"""
+el metodo sort, un metodo como reverse pone la lista como su nombre lo dice 
+pone la lista en orden al reves
+"""
+print("\n Ordenar listas en orden inverso \n")
+
+motorcycles=["mortalica", "honda", "ducatti"]
+print(motorcycles) # salida: ['mortalica', 'honda', 'ducatti']
+motorcycles.reverse()
+print(motorcycles) # salida: ['ducatti', 'honda', 'mortalica']
+
+
+
+
+
+"""
+cantidad de elementos en una lista
+len() es una funcion que devuelve la cantidad de elementos en una lista
+"""
+
+print("\n Cantidad de elementos en una lista \n")
+cars1=["ford", "kia", "cheevrolet"]
+print(len(cars1)) # salida: 3
+
+
+"""
+otro metodo built-in
+  sorted():
+  ordena temporalmente una lista sin modificar la lista original
+"""
+
+
+
+print("\n Ordenar temporalmente una lista con sorted() \n")
+favorite_students=["jorge", "jose", "carlos", "emiliano"]
+print(favorite_students) # salida: ['jorge', 'jose', 'carlos', 'emiliano']
+print("lista ordenada temporalmente: ", sorted(favorite_students)) # salida: lista ordenada temporalmente:  ['carlos', 'emiliano', 'jorge', 'jose']
+print("lista original: ", favorite_students) # salida: ['jorge', 'jose', 'carlos', 'emiliano']
