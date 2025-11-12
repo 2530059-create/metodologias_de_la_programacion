@@ -71,12 +71,3 @@ print ("valor de todos los numeros sumados:", sum(digits))
 
 
 
-
-
-
-
-
-
-
-
-
