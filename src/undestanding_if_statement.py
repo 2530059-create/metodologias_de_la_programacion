@@ -56,3 +56,7 @@ if age>= 18:
     print ("\n eres mauyor de edad")
 else:
     print ("eres putito")
+
+"""
+vamos a relaizar que pregunte al usuario 
+"""
