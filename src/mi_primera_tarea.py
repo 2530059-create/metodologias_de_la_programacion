@@ -18,3 +18,7 @@ con pip list te dice que tienes instalado en tu
 ambiente.
 
 """
+#metodos que tengo que investigar 
+#replace
+#split 
+# en todas las tareas de ña 1,4 se utilizan estostipos de datos 
