@@ -9,4 +9,12 @@ try:
    elif age >18:
     print("Tu entrada tiene un costo de $400")
 except: print ("tuviste un error al ingresar tu edad")
+
 "listo"
+
+"interprete para esp32 es micro python, se instala una herramienta a python que se llama esptool"
+""" 
+con pip list te dice que tienes instalado en tu 
+ambiente.
+
+"""
