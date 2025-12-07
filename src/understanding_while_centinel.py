@@ -33,8 +33,8 @@ sum_numbers+= quantity
 if minimum is None or quantity <minimum:
    minimum = quantity
 if maximum is None or quantity < maximum:
-   minimum = quantity
+   maximum = quantity
 
 
-print ("sum" sum_numbers)
-print ("counters" counter)
+print(sum_numbers)
+print (counter)

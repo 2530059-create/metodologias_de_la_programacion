@@ -20,5 +20,3 @@ while intents < MAX_ATTEMPTS:
     if user_pin == CORRECT_PIN:
         print ("acceso permitido")
         break
-    else:
-        intents=intents +=1
